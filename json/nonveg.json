@@ -1,0 +1,34 @@
+[
+    {
+        "breakfast":"Chipotle",
+        "foodItems":[
+            {"foodName":"Chicken Burrito", "foodType":"Burrito", "protein":"chicken", "calories":975},
+            {"foodName":"Chips and Guacamole", "calories":770, "sideItem":true},
+            {"foodName":"Chips and Queso", "calories":770, "sideItem":true}
+            ]
+    },
+    {
+        "lunch":"Panera",
+        "foodItems":[
+            {"foodName":"BBQ Chicken Flatbread", "foodType":"Sandwich", "calories":380, "carbs":41 },
+            {"foodName":"Chicken Flatbread", "calories":380, "correctedTerm":"BBQ Chicken Flatbread", "carbs":41 },
+            {"foodName":"Cream of Chicken & Wild Rice Soup", "foodType":"Soup", "calories":260, "sideItem":true, "correctedTerm":"Bowl of Cream of Chicken & Wild Rice Soup", "carbs":27 }
+            ]
+    },
+    {
+        "snacks":"Panera",
+        "foodItems":[
+            {"foodName":"BBQ Chicken Flatbread", "foodType":"Sandwich", "calories":380, "carbs":41 },
+            {"foodName":"Chicken Flatbread", "calories":380, "correctedTerm":"BBQ Chicken Flatbread", "carbs":41 },
+            {"foodName":"Cream of Chicken & Wild Rice Soup", "foodType":"Soup", "calories":260, "sideItem":true, "correctedTerm":"Bowl of Cream of Chicken & Wild Rice Soup", "carbs":27 }
+            ]
+    },
+    {
+        "dinner":"Panera",
+        "foodItems":[
+            {"foodName":"BBQ Chicken Flatbread", "foodType":"Sandwich", "calories":380, "carbs":41 },
+            {"foodName":"Chicken Flatbread", "calories":380, "correctedTerm":"BBQ Chicken Flatbread", "carbs":41 },
+            {"foodName":"Cream of Chicken & Wild Rice Soup", "foodType":"Soup", "calories":260, "sideItem":true, "correctedTerm":"Bowl of Cream of Chicken & Wild Rice Soup", "carbs":27 }
+            ]
+    }
+]
