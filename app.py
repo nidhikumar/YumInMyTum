@@ -7,9 +7,13 @@ app = Flask(__name__)
 with open('json/fastfood.json') as json_file: 
     menu = json.load(json_file)
 
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
+    
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('main.html')
 
 @app.route('/get-random-dish', methods=['POST'])
 def get_random_dish():
